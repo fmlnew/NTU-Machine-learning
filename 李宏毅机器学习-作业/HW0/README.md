@@ -17,7 +17,7 @@
 
 * 讀取 lena.png 與 lena_modified.png 
 
-* 使用後者異於前者的部分產生相同格式的新圖檔 ans_two.png
+* 找出后者较前者不同的地方，并指定相同的地方为白色 ans_two.png
 
 ## Reference
 
