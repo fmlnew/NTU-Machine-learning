@@ -14,6 +14,7 @@ matrixA = np.array(matrixA)
 matrixB = np.array(matrixB)
 
 ans = matrixA.dot(matrixB)
+# ans.sort(axis=1) 代表 按行排序
 ans.sort(axis=1)
 
 np.savetxt("Q1_ans.txt", ans, fmt="%d", delimiter="\r\n")
